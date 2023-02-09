@@ -1,11 +1,8 @@
 def hinh_vuong_rong(h):
-    i = 2
     print("*" * h)
-    while i <= (h-1):
+    for i in range(h-2):
         print("*"+" "*(h-2)+"*")
-        i += 1
-    else:
-        print("*" * h)
+    print("*" * h)
 
 
 hinh_vuong_rong(5)
